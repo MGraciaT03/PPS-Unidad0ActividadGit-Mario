@@ -10,18 +10,18 @@ Utilizamos los comandos mkdir para crear la carpeta y entrar en ella con cd
 mkdir PPS-Unidad0ActividadGit-$Mario
 cd PPS-Unidad0ActividadGit-$Mario
 ```
-<img width="auto" height="120" alt="mkdir" src="https://github.com/user-attachments/assets/66422174-6953-4fce-8098-c12930a66b17" />
+![Imagen1](images/1.png)
 
 Entramos a Github con nuestra cuenta y creamos un nuevo repositorio publico. Lo llamamos PPS-Unidad0ActividadGit-$Mario
 
-<img width="auto" height="600" alt="repositorio" src="https://github.com/user-attachments/assets/b2e90c71-675e-46f5-9f27-bcf85dee131d" />
-<img width="auto" height="500" alt="imagen" src="https://github.com/user-attachments/assets/8e35b18b-6115-46b9-8239-4efb1f17f8a1" />
+![Imagen2](images/2.png)
+![Imagen3](images/3.png)
 
 para clonarlo o subirlo a Debian, copiamos el codigo ssh y lo pegamos en la maquina virtual donde queremos crear el repositorio
 
-<img width="631" height="auto" alt="githubssh" src="https://github.com/user-attachments/assets/2a8c401c-2662-40d5-a6af-7b5d1deb8b2c" />
+![Imagen1](images/4.png)
 
-<img width="auto" height="272" alt="creandorepositorio" src="https://github.com/user-attachments/assets/0085828a-11bd-4cc2-89c3-a605b0482e70" />
+![Imagen1](images/5.png)
 
 ## 2 Estructurando el proyecto
 
@@ -42,28 +42,28 @@ PPS-Unidad0ActividadGit-Mario/
 ├── requirements.txt   
 
 
-<img width="317" height="auto" alt="calculator" src="https://github.com/user-attachments/assets/5e88d63d-3e43-4e0e-a7f7-002699e1ba38" />
+![Imagen1](images/6.png)
 
 Comprobamos el estado con git status y vemos la organizacion del directorio
 ```
 git status
 ```
-<img width="373" height="auto" alt="status1" src="https://github.com/user-attachments/assets/d9e4ecdc-43d3-46f1-a331-94561457508e" />
+![Imagen1](images/7.png)
 
 ```
 git status
 ```
 
-<img width="465" height="563" alt="tree" src="https://github.com/user-attachments/assets/e9afe8b3-bd0c-4463-886f-68b4f38ed302" />
+![Imagen1](images/8.png)
 
 Modificamos los ficheros  ```__init__.py``` ```gui.py```  ```mkdocs.yml``` ```index.md``` ```requiriments.txt```
 
 Hacemos los cambios al repositorio subiendo un commit
 
-<img width="auto" height="247" alt="ficheros" src="https://github.com/user-attachments/assets/886f23bc-0ed2-4ab4-a10c-26dd91d7da0e" />
+![Imagen1](images/9.png)
 
 
-<img width="auto" height="303" alt="repositorio" src="https://github.com/user-attachments/assets/b2f6ae8f-16db-4dc7-9590-c0518bc3679d" />
+<![Imagen1](images/10.png)
 
 
 ## 3 Ignorando archivos del repositorio
@@ -72,7 +72,7 @@ Hacemos los cambios al repositorio subiendo un commit
 
 2. creamos un archivo con nombre excluido.txt 
 
-<img width="auto" height="267" alt="imagen" src="https://github.com/user-attachments/assets/b1880e37-916b-49cc-a336-bcf3ba090397" />
+![Imagen1](images/11.png)
 
 3. Crea un archivo con nombre .gitignore 
 
@@ -80,28 +80,28 @@ Hacemos los cambios al repositorio subiendo un commit
 
 5. Hacemos los cambios al repositorio
 
-<img width="auto" height="497" alt="imagen" src="https://github.com/user-attachments/assets/d29b9790-8632-4f6e-a018-710cf23811b2" />
+![Imagen1](images/12.png)
 
 
 ## 4Levantar un pequeño Servidor Web con PHP
 
-<img width="auto" height="2o2" alt="imagen" src="https://github.com/user-attachments/assets/ef65222d-055e-45c8-afba-91c5bd9535e3" />
+![Imagen1](images/12.png)
 
 hacemos los cambios al fichero ```index.html```
 
-<img width="auto" height="512" alt="imagen" src="https://github.com/user-attachments/assets/a4dd23a9-e416-4151-97bd-6158f8eb3def" />
+![Imagen1](images/13.png)
 
 Refrescamos los cambios con git status 
 
-<img width="auto" height="100" alt="imagen" src="https://github.com/user-attachments/assets/1d8ab040-0dfc-4fb9-8dee-f6e23a5f6b68" />
+![Imagen1](images/14.png)
 
 usamos gitt diff para modificar el fichero index.html para que cambie el texto mostrado y ver que ha cambiado el mensaje en la web
 
-<img width="auto" height="500" alt="imagen" src="https://github.com/user-attachments/assets/2c9ce33d-58b3-456b-9e59-a11834ddb0f1" />
+![Imagen1](images/15.png)
 
 Usamos restore para restaurar el mensaje original de la web 
 
-<img width="auto" height="163" alt="imagen" src="https://github.com/user-attachments/assets/bf960aed-726f-4c8f-bea2-a5aa12fd972e" />
+![Imagen1](images/16.png)
 
 Finalmente hacemos los cambios y los subimos
 
@@ -111,7 +111,7 @@ Finalmente hacemos los cambios y los subimos
 ```bash 
 git log
 ```
-<img width="auto" height="300" alt="imagen" src="https://github.com/user-attachments/assets/52d54c99-bd7b-4aa2-af80-5b6b521f8743" />
+![Imagen1](images/17.png)
 
 1. Para mostrar los logs de los últimos 3 commits y los logs utilizando el modificador ``--pretty`
 
@@ -119,8 +119,8 @@ git log
 git log -3
 git log --pretty=oneline
 ```
-<img width="auto" height="311" alt="imagen" src="https://github.com/user-attachments/assets/9f807dcd-4041-4469-8c21-bf1749362c7a" />
 
+![Imagen1](images/19.png)
 
 1. Para mostrar los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas y los logs de las modificaciones realizadas en el último día.
 ```bash 
@@ -128,7 +128,7 @@ git log -p -2
 git log --since=1.day
 ```
 
-<img width="auto" height="353" alt="imagen" src="https://github.com/user-attachments/assets/92cb22e8-6120-4fd8-8b04-7ce31127a706" />
+![Imagen1](images/20.png)
 
 
 ## 6 Ramas
@@ -137,7 +137,7 @@ git log --since=1.day
 ```bash 
 git branch --list
 ```
-<img width="452" height="auto" alt="imagen" src="https://github.com/user-attachments/assets/dcd27ddd-8b7a-47ee-9fd9-0f9f15aea64b" />
+![Imagen1](images/21.png)
 
 
 1. Elimina el archivo index.html.save y creamos una rama dev a la rama actual
@@ -148,7 +148,8 @@ git commit -am "eliminando index.html.save"
 git push origin main
 git chekout -b dev
 ```
-<img width="425" height="auto" alt="imagen" src="https://github.com/user-attachments/assets/3be3c58a-6c91-40bb-9d93-d9ad9e7b50a5" />
+
+![Imagen1](images/22.png)
 
 
 1. Subimos los cambios al respositorio remoto a la rama `dev`  
